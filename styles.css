@@ -1,0 +1,7 @@
+.pamel{
+    display: none;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(236, 129, 80);
+}
