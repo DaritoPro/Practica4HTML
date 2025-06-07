@@ -119,9 +119,36 @@ input[type="radio"]{
 }
 
 .button{
-    background-color: gray;
-    padding: 10px;
-    border-radius: 7px;
+    display: inline-block;
+    background-color: rgb(110, 102, 91);
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 10px;
     transition: background 0.2s;
     transition: transform 12 ease;
+}
+.button:hover{
+    transform: scale(1.05);
+    background-color: rgb(88, 69, 69);
+}
+
+header:hover{
+    transform: scale(1.08);
+    background-color: #c49f9f;
+    background: linear-gradient(90deg, #b37d7d);
+}
+
+.panel{
+    margin-top: 40px;
+    font-weight: bold;
+    transition: background 1.4;
+    transition: transform 12 ease;
+}
+
+.panel:hover{
+    transform: scale(1.02);
+    background-color: #c3caaf;
 }
