@@ -117,3 +117,11 @@ main{
 input[type="radio"]{
     display: none;
 }
+
+.button{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 7px;
+    transition: background 0.2s;
+    transition: transform 12 ease;
+}
